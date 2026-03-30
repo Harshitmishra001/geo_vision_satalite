@@ -11,7 +11,7 @@ This foundational classical CV pipeline serves as a robust baseline for terrain 
 
 ## Installation
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/geo-vision.git
+   git clone https://github.com/Harshitmishra001/geo_vision_satalite
    cd geo-vision
 
 2. Install the required dependencies:
@@ -43,7 +43,7 @@ git add SZTAKI_AirChange_Benchmark/Szada/1/
 git commit -m "test: Add SZTAKI benchmark sample pair for automated evaluation"
 
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/geo-vision.git
+git remote add origin https://github.com/Harshitmishra001/geo_vision_satalite
 git push -u origin main
 
 ---
