@@ -1,8 +1,0 @@
-{
-    "baseline_image": "im1.bmp",
-    "current_image": "im2.bmp",
-    "total_pixels_analyzed": 609280,
-    "changed_pixels": 33371,
-    "percentage_change": 5.48,
-    "status": "Processing Complete"
-}
