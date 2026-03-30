@@ -1,9 +1,9 @@
 # GeoVision CLI: Remote Sensing Terrain Change Detector 
 
 ## Overview
-GeoVision is a headless Computer Vision command-line utility designed for automated remote sensing-based satellite image analysis. It compares two satellite images of the same geographical area taken at different times and generates a binary change mask highlighting structural terrain modifications. It also exports a JSON statistical report of the affected area.
+GeoVision is a command-line computer vision tool built for automated analysis of satellite imagery. It takes two images of the same geographic region captured at different points in time and compares them to identify changes. The output includes a binary change mask that highlights structural modifications in the terrain, along with a JSON report summarizing the extent of the affected area.
 
-This foundational classical CV pipeline serves as a robust baseline for terrain analysis, establishing a deterministic benchmark before exploring more complex deep learning architectures with spatial attention mechanisms.
+At its core, the system relies on a classical computer vision pipeline, providing a stable and interpretable baseline for terrain analysis. This deterministic approach is useful for establishing a clear benchmark, especially before moving toward more advanced deep learning models that incorporate spatial attention and other complex mechanisms.
 
 ## Prerequisites
 - Python 3.8+
@@ -56,7 +56,7 @@ git push -u origin main
 Manual analysis of satellite imagery is too slow.
 
 ### Approach
-A headless CLI tool was built using absolute image differencing, Otsu's Thresholding to binarize the image, and morphological opening/closing to filter out sensor noise.
+A headless command line tool was built around a simple classical pipeline. It starts by comparing two images using absolute differencing to highlight pixel level changes. The result is then converted into a binary image through Otsu’s thresholding. After that, morphological opening and closing are applied to reduce sensor noise and clean up the final output.
 
 ### Future Scope
 While this classical CV pipeline is highly efficient, future iterations could integrate deep learning models—perhaps proposing an architecture like a Nowshin net utilizing a Residual Attention module to better capture intricate spatial dependencies and contextual features in remote sensing data.
