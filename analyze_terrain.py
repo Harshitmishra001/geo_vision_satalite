@@ -6,7 +6,6 @@ import sys
 import os
 
 def calculate_change(baseline_path, current_path, output_mask_path, stats_path):
-    """Processes two satellite images and detects terrain changes."""
     
     # 1. Load the images
     img1 = cv2.imread(baseline_path)
