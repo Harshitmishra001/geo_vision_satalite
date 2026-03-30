@@ -48,7 +48,7 @@ git push -u origin main
 
 ---
 ### Results
-![GeoVision Results Visualization](results\results_visualization.png)
+![GeoVision Results Visualization](results/results_visualization.png)
 ---
 ## Project Report Blueprint
 
