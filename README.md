@@ -21,7 +21,7 @@ This foundational classical CV pipeline serves as a robust baseline for terrain 
 The application is executed entirely via the command line.
 
 ### Example Execution (Using included SZTAKI Benchmark Data):
-python analyze_terrain.py --baseline SZTAKI_AirChange_Benchmark/Szada/1/im1.bmp --current SZTAKI_AirChange_Benchmark/Szada/1/im2.bmp --output predicted_change_mask.png --stats report.json
+python analyze_terrain.py --baseline SZTAKI_AirChange_Benchmark/Szada/1/im1.bmp --current SZTAKI_AirChange_Benchmark/Szada/1/im2.bmp --output predicted_change_mask.png --stats report.json --vis results_visualization.png
 
 ## Output Artifacts
 - Change Mask (.png): A binary image where white pixels represent isolated changes.
