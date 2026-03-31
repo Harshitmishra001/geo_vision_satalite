@@ -27,26 +27,7 @@ python analyze_terrain.py --baseline SZTAKI_AirChange_Benchmark/Szada/1/im1.bmp 
 - Change Mask (.png): A binary image where white pixels represent isolated changes.
 - Metrics Report (.json): A data file detailing the exact pixel count and percentage of terrain alteration.
 
----
 
-## GitHub Iterative Commits
-The repository should reflect an actual development process. Use the following commands:
-
-git init
-git add README.md
-git commit -m "docs: Initialize project scope and headless CLI instructions"
-
-git add analyze_terrain.py
-git commit -m "feat: Implement OpenCV image differencing and Otsu thresholding"
-
-git add SZTAKI_AirChange_Benchmark/Szada/1/
-git commit -m "test: Add SZTAKI benchmark sample pair for automated evaluation"
-
-git branch -M main
-git remote add origin https://github.com/Harshitmishra001/geo_vision_satalite
-git push -u origin main
-
----
 ### Results
 ![GeoVision Results Visualization](results/results_visualization.png)
 ---
